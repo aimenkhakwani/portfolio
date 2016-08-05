@@ -23,4 +23,4 @@ _HTML, CSS and Bootstrap grid columns_
 
 ## License
 
-_HTML, CSS and Bootstrap grid columns_ Copyright (c) 2016 **_Aimen Khakwani_**
+Copyright (c) 2016 **_Aimen Khakwani_**

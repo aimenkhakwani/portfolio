@@ -1,8 +1,8 @@
-## _Portfolio Site
+## _Portfolio Site_
 
 #### _A webpage to collect and display my work, 8/5/16_
 
-#### By_**Aimen Khakwani**
+#### By_**Aimen Khakwani**_
 
 ## Description
 

@@ -88,3 +88,13 @@ footer {
   text-align: center;
   margin: 30px;
 }
+@media screen and (max-width: 1000px) {
+  header h1 {
+    margin-top: 0px;
+  }
+  nav ul li {
+    display:list-item;
+    padding: 10px;
+    float: none;
+  }
+}

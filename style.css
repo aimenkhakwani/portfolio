@@ -1,0 +1,39 @@
+header {
+  font-family: 'Quicksand', sans-serif;
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+
+}
+header h1 {
+  color: #00cccc;
+  /*color: #595959;*/
+}
+small {
+  color: #737373;
+  padding-left: 25px;
+}
+nav{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+nav ul{
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+nav ul a  {
+  color: #00cccc;
+  font-size: 20px;
+}
+nav ul a:hover {
+  color: #595959;
+  text-decoration: none;
+}
+.col-sm-12 {
+  margin: 20px;
+}

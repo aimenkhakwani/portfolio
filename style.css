@@ -77,8 +77,12 @@ p {
   font-family: 'Quicksand', sans-serif;
   color: #00cccc;
 }
-.about p{
+.about p, li{
   font-size: 18px;
+}
+.pronounce {
+  font-style: italic;
+  font-weight: bold;
 }
 footer {
   text-align: center;

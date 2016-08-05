@@ -8,8 +8,7 @@ header {
   font-family: 'Quicksand', sans-serif;
   width: 60%;
   float: left;
-  margin-top: 10px;
-
+  padding-top: 10px;
 }
 header h1 {
   color: #00cccc;
@@ -114,7 +113,7 @@ footer {
 }
 @media screen and (max-width: 1000px) {
   header h1 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   nav ul li {
     display:list-item;

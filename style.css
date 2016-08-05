@@ -84,13 +84,21 @@ p {
   font-style: italic;
   font-weight: bold;
 }
+.break {
+  display: none;
+}
 footer {
   text-align: center;
   margin: 30px;
 }
+@media screen and (max-width: 1200px) {
+  .break {
+    display: inline;
+  }
+}
 @media screen and (max-width: 1000px) {
   header h1 {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   nav ul li {
     display:list-item;

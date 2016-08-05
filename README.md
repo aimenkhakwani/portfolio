@@ -2,7 +2,7 @@
 
 #### _A webpage to collect and display my work, 8/5/16_
 
-#### By_**Aimen Khakwani**_
+#### By _**Aimen Khakwani**_
 
 ## Description
 

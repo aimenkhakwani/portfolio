@@ -1,6 +1,6 @@
 ## _Portfolio Site_
 
-#### _A webpage to collect and display my work, 8/5/16_
+#### _A webpage to collect and display my coding work, 8/5/16_
 
 #### By _**Aimen Khakwani**_
 
@@ -23,4 +23,4 @@ _HTML, CSS and Bootstrap grid columns_
 
 ## License
 
-_HTML, CSS and Bootstrap grid columns_Copyright (c) 2016 **_Aimen Khakwani_**
+_HTML, CSS and Bootstrap grid columns_ Copyright (c) 2016 **_Aimen Khakwani_**

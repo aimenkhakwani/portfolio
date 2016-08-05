@@ -1,20 +1,33 @@
+.container {
+    margin: 20px;
+}
+.col-sm-12 {
+  margin-bottom: 30px;
+}
 header {
   font-family: 'Quicksand', sans-serif;
-  width: 50%;
+  width: 60%;
   float: left;
   margin-top: 10px;
 
 }
 header h1 {
   color: #00cccc;
+  margin-top: 40px;
   /*color: #595959;*/
+}
+header img{
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 small {
   color: #737373;
   padding-left: 25px;
 }
 nav{
-  width: 50%;
+  width: 40%;
   float: left;
   text-align: right;
 }
@@ -34,6 +47,30 @@ nav ul a:hover {
   color: #595959;
   text-decoration: none;
 }
-.col-sm-12 {
-  margin: 20px;
+.col-sm-4 {
+  background-color: #f2f2f2;
+  border: 3px solid #fff;
+  border-bottom: 15px solid #fff;
+}
+.col-sm-4 h3 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+.col-sm-4 h3 a {
+  color: #000;
+}
+.col-sm-4 h3 a:hover {
+  text-decoration: none;
+  color: #737373;
+}
+.col-sm-4 p {
+  font-size: 15px;
+  padding: 5px;
+}
+.col-sm-4 p.description {
+  padding-top: 15px;
+}
+footer {
+  text-align: center;
+  margin: 30px;
 }

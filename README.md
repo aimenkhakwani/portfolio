@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a HTML website created to show my coding work, including websites and application. Click on the titles to view the code on GitHub._
+_This is a HTML website created to show my coding work, including websites and application. To see the site visit https://aimenkhakwani.github.io/portfolio_
 
 ## Setup/Installation Requirements
 

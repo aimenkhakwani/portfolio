@@ -52,10 +52,18 @@ p {
   font-size: 15px;
   padding: 5px;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .col-sm-4 {
   background-color: #f2f2f2;
   border: 3px solid #fff;
   border-bottom: 15px solid #fff;
+  display: flex;
+  flex-direction: column;
 }
 .col-sm-4 h3 {
   font-family: 'Quicksand', sans-serif;
@@ -106,6 +114,7 @@ footer {
   text-align: center;
   margin: 30px;
 }
+
 @media screen and (max-width: 1200px) {
   .break {
     display: inline;

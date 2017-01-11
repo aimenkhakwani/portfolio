@@ -14,14 +14,13 @@ small {
 }
 .headerNav {
   padding-top: 20px;
-  padding-bottom: 70px;
 }
 
 /*     Nav     */
 nav {
   text-align: center;
   width: 100%;
-  /*padding-top: 30px;*/
+  padding-top: 10px;
 }
 nav ul{
   font-family: 'Quicksand', sans-serif;
@@ -48,30 +47,23 @@ p {
   font-size: 15px;
   padding: 5px;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.clearMe {
+  clear: both;
 }
 
 /*     Columns     */
-.rowOne {
-  margin-bottom: 60px;
-}
 .workBox {
   background-color: #f2f2f2;
-  width: 30.333%;
-  /*height: 260px;*/
-  display: flex;
-  flex-direction: column;
+  width: 80%;
   position: relative;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 50px;
 }
 .workBox img {
   box-shadow: 3px 3px 6px #999;
 }
-.right {
-  margin-right: 4.5%;
-}
-.workBox h3 {
+/*.workBox h3 {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
@@ -85,11 +77,12 @@ p {
 }
 .workBox p.description {
   padding-top: 15px;
-}
+}*/
 
 /*     On Image Hover     */
 .description {
-  background: rgba(115, 115, 115, 0.72);
+  display: none;
+  /*background: rgba(115, 115, 115, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
@@ -98,7 +91,7 @@ p {
   height: 101%;
   z-index: 3;
   margin-top: -1px;
-  padding-top: 25px;
+  padding-top: 25px;*/
 }
 
 /*.description a {
@@ -117,7 +110,11 @@ p {
 }*/
 
 /*     About and Contact Page     */
-.about {
+#about, #contact {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.aboutMe {
   background-color: #f2f2f2;
   padding: 40px;
 }
@@ -128,7 +125,7 @@ h2.subheading {
   font-family: 'Quicksand', sans-serif;
   color: #00cccc;
 }
-.about p{
+.aboutMe p{
   font-size: 17px;
 }
 .pronounce {
@@ -141,10 +138,7 @@ h2.subheading {
 
 /*     Footer     */
 footer {
-  margin-top: 40px;
-}
-footer p{
-  text-align: right;
+  margin-top: 30px;
 }
 footer a{
   color: #000;
@@ -158,12 +152,55 @@ footer .fa {
 footer .fa-github {
   padding-right: 10px;
 }
+.social-icons {
+  text-align: left;
+}
+.copyright {
+  text-align: right;
+}
 
 /*     Media Queries     */
+@media (min-width: 650px) {
+  .workBox {
+    background-color: #f2f2f2;
+    width: 30.333%;
+    float: left;
+    margin-right: 4.5%;
+    margin-top: 30px;
+  }
+  #about, #contact {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 @media (min-width: 800px) {
+  .workBox {
+    background-color: #f2f2f2;
+    width: 30.333%;
+    float: left;
+    margin-right: 4.5%;
+    margin-left: 0%;
+    margin-top: 40px;
+  }
+  .workBox:nth-child(3n+3) {
+    margin-right: 0%;
+  }
+  .addMargin {
+    margin-right: 4.5%;
+  }
+}
+@media (min-width: 1000px) {
+  .workBox {
+    margin-top: 50px;
+  }
+  .headerNav {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
   header {
     width: 60%;
     text-align: left;
+    float: left;
   }
   nav {
     width: 40%;
@@ -172,35 +209,3 @@ footer .fa-github {
     padding-top: 30px;
   }
 }
-/*@media (max-width: 1000px) {
-  header {
-    width: 60%;
-  }
-  nav {
-    width: 40%;
-  }
-}
-@media (max-width: 800px) {
-  header {
-    width: 100%;
-    text-align: center;
-  }
-  nav {
-    width: 100%;
-    text-align: center;
-  }
-  nav ul li:first-of-type {
-    padding-left: 0px;
-  }
-}
-@media (max-width: 750px) {
-  .workBox {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-  }
-  .right {
-    margin-right: 0;
-  }
-}*/
